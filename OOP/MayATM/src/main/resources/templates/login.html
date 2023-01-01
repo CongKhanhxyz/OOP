@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/css/main.css}" rel="stylesheet"/>
+</head>
+<body>
+<div class="wrap">
+    <div id="wrap_login">
+        <h1 style="padding: 30px; display: block" >Nhập tài khoản và mật khẩu</h1>
+        <form action="save" method="post" class="form_wrap">
+            Name: <input class="login_input" type="text" name="username">
+            PassWord: <input class="login_input" type="password" name="password">
+            <input class="save_login" type="submit" value="Đăng nhập">
+        </form>
+    </div>
+</div>
+</body>
+</html>
